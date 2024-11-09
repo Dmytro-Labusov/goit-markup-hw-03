@@ -172,9 +172,9 @@ a, span {
 
 .business-text {
 position: absolute;
-width: 496px;
+/* width: 496px;
 height: 120px;
-top: 260px;
+top: 260px; */
 max-width: 496px;
 }
 
@@ -190,7 +190,6 @@ max-width: 496px;
     border-radius: 4px;
     display: block;
     border: none;
-    margin-top: 356px;
     width: 169px;
     height: 56px;
     color: rgb(255, 255, 255);
@@ -199,6 +198,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 4%;
 min-width: 169px;
+margin-top: 155px;
 }
 
 .order-button:hover {
@@ -284,7 +284,6 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 2%;
 text-align: center;
-margin: 0 auto;
 margin-bottom: 72px;
 }
 
@@ -292,7 +291,7 @@ margin-bottom: 72px;
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-top: 232px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -312,7 +311,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 32;
-padding: 0px 0px 32px 0px;
 width: calc((100% - 72px) / 4); 
 }
 
@@ -379,7 +377,7 @@ padding-left: 16px;
 border-bottom: 1px solid rgb(231, 233, 252);
 border-left: 1px solid rgb(231, 233, 252);
 border-right: 1px solid rgb(231, 233, 252);
-padding-bottom: 32px;
+/* padding-bottom: 32px; */
 width: calc((100% - 48px) / 3);
 }
 
