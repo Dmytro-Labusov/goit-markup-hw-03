@@ -212,7 +212,8 @@ min-width: 169px;
 }
 
 .values-section {
-     
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .values-container {
@@ -220,11 +221,24 @@ min-width: 169px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 120px;
-    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .values-list {
+    display: flex;
+    gap: 24px;
+}
+
+.values-item {
     display: flex;
     gap: 24px;
 }
