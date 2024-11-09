@@ -159,6 +159,8 @@ a, span {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 .business-container {
@@ -174,6 +176,7 @@ position: absolute;
 width: 496px;
 height: 120px;
 top: 260px;
+max-width: 496px;
 }
 
 .order-button {
@@ -196,6 +199,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 4%;
+min-width: 169px;
 }
 
 .order-button:hover {
