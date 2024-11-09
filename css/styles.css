@@ -236,11 +236,13 @@ min-width: 169px;
 .values-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .values-item {
     display: flex;
     gap: 24px;
+    
 }
 
 .values-subtitle {
@@ -250,6 +252,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 2%;
 text-align: left;
+margin-bottom: 8px;
 }
 
 .text {
