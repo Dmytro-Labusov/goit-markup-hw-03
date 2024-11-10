@@ -329,6 +329,7 @@ text-align: center;
 }
 
 .portfolio-container {
+    border-top: none;
    
 }
 
@@ -347,6 +348,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 2%;
 text-align: left;
+margin-bottom: 8px;
 }
 
 .portfolio-list {
