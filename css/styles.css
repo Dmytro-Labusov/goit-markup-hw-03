@@ -309,9 +309,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .team-name {
-/* margin: 8px 0px; */
 margin-bottom: 8px;
-padding-top: 32px;
 text-align: center;
 }
 
@@ -414,9 +412,7 @@ text-align: left;
 
 .footer-text {
     color:#F4F4FD;
-    position: absolute;
     width: 264px;
-    height: 72px;
 }
 
 .info {
